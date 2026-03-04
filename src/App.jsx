@@ -11,7 +11,7 @@ function App(){
   return(
     <>
       <header className="bg-gray-600 text-white text-3xl text-center py-3">Basic Api</header>
-      <main className="my-3 gap-3 max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <main className="my-3 gap-4 max-w-5xl mx-auto px-2 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {data.recipes &&
         data.recipes.map((r) => (
           <div className="p-5 flex flex-col justify-between rounded-2xl shadow shadow-amber-600">
